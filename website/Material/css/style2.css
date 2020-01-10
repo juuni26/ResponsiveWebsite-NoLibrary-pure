@@ -1,0 +1,38 @@
+#abt {
+    background-color: aliceblue;
+    padding: 15px 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+#wrd {
+    font-size: 25px;
+    color: burlywood;
+    
+}
+#btus,#pct {
+    text-align: center;
+}
+
+#wrd:hover {
+    color:chocolate;
+}
+
+#pct {
+    width: 60%;
+    margin: auto    ;
+}
+
+#vtg{
+    color: coral;
+}
+
+
+@media only screen and (max-width: 756px){
+    #pct {
+        width: 100%;
+        margin: auto    ;
+    }
+
+}

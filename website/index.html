@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Material/css/style.css">
+  <title>Welcome to Vintage Shop</title>
+</head>
+
+<body>
+  <header class="navbar">
+    <a href="#"><img src="Material/img/logo junio.png" alt="logo" id="logo"></a>
+
+    <div class="container" onclick="myFunction(this)">
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <ul class="navbar-list">
+      <li><a class="current" href="index.html">Home</a></li>
+      <li class="productList">
+        <a href="#">Product</a>
+        <div id="productContent"> 
+          
+        <a href="Dir/vintageItem.html">Vintage Item</a>
+        <a href="Dir/vintageFurniture.html">Vintage Furniture</a>
+      </div>
+      
+      </li>
+      <li><a href="Dir/Register.html">Register</a></li>
+      <li><a href="Dir/AboutUs.html">About Us</a></li>
+    </ul>
+
+
+  </header>
+  <main>
+    
+    <div class="landing">
+      <div class="jb"><a href="Dir/vintageItem.html"><img src="Material/img/barang/jam/ales-krivec-ZMZHcvIVgbg-unsplash.jpg" alt="supp"></a> 
+        <div class="text-btm">Preview Item. Click to discover</div>
+      </div>
+      <div class="jb"><a href="Dir/vintageItem.html"><img src="Material/img/barang/tas.jpg" alt="supp"></a>
+        <div class="text-btm">Preview Item. Click to discover</div>
+      </div>
+      <div class="jb"><a href="Dir/vintageFurniture.html"><img src="Material/img/barang/furniture/il_1588xN.2131452339_f6gz.jpg" alt="supp"></a>
+        <div class="text-btm">Preview Item. Click to discover</div>
+      </div>
+      <div class="jb"><a href="Dir/vintageFurniture.html"> <img src="Material/img/barang/furniture/lampu chandelier.jpg" alt="supp"></a>
+        <div class="text-btm">Preview Item. Click to discover</div>
+      </div>
+
+      <button id="btn_left" onclick="plusDivs(-1)">&#10094;</button>
+      <button id="btn_right" onclick="plusDivs(1)">&#10095;</button>
+    </div>
+
+    </div>
+    <img id="welcome" src="Material/img/WELCOME%20TO%20VINTAGE%20SHOP%20_).svg" alt="welcome">
+  </main>
+
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Welcome for the first time in VintageShop.id</h2>
+      </div>
+      <div class="modal-body">
+        <img id="modalpict" src="Material/img/photo-1520813792240-56fc4a3765a7.jfif" alt="smileyy">
+        <p>Discover the new Vintage And the world !</p>
+        <p>We glad to serve the best Vintage Items In the world, Check it out # <3 </p>
+      </div>
+      <div class="modal-footer">
+        <h3>#VintageShop | @Vintageshop.id</h3>
+      </div>
+    </div>
+    </div>
+
+  <section>
+    
+
+    <img class="firstpst" src="Material/img/seth-doyle-QaZ-b11A6Zo-unsplash.jpg" alt="2">
+    <div class="clear"></div>
+    <a href="Dir/vintageItem.html" class="shopN">Shop Now</a>
+<br>
+  </section>
+
+  
+  <div id="footer1">
+    <div class="partFooter">
+      <p><span id="vintageW">About Vintageshop.id </span><br><br>VintageShop adalah toko modern yang hanya menjual barang-barang khusus bertema vintage,
+        kami menyediakan berbagai macam barang mulai dari baju, koleksi-koleksi unik, hingga ke furniture bertema old-vintage.
+         kami mengedepankan kualitas dan keamanan dalam berbelanja di toko kami, sehingga customer bisa puas dalam berbelanja.
+         <br><br>
+         #BeUniquee! #VintageId 
+       </p>
+       <span id="copyright">©vintageshop.id </span>
+    </div>
+
+
+    <div class="partFooter">
+      <br>
+      <span id="informWord">Information</span>
+      <div id="information">
+      <a href="Dir/Product.html">Our Products</a> </<a>
+      <a href="Dir/AboutUs.html">About Us</a>
+    </div>
+    </div>
+
+    <div class="partFooter">
+      <p>
+        <span id="VintageWord">Loves Vintage ?</span>
+       <br><br>
+       Subscribe to receive updates, access to exclusive deals, and more about Vintages Product.
+       <form action="#">
+        Email<br>
+        <input class="subs" type="email" name="email" value="Email" >
+        <br>
+        <input id="submit" type="submit" value="Subscribe" onclick="alert('thank you for subscribing !')">
+      </form> 
+
+      </p>
+      </div>
+      
+      <div id="clear">
+      </div>
+</div>
+  
+
+  <script src="Material/js/jquery-3.4.1.min.js"></script>
+  <script src="Material/js/dynamic.js"></script>
+</body>
+
+</html>

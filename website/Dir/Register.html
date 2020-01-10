@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Material/css/style.css">
+    <link rel="stylesheet" href="../Material/css/style1.css">
+    <title>Register Now @Vintage</title>
+</head>
+<body>
+    <header class="navbar">      
+        <a href="../index.html"><img src="../Material/img/logo junio.png" alt="logo" id="logo"></a>
+        
+        <div class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </div>
+          
+        <ul class="navbar-list">
+        <li><a href="../index.html ">Home</a></li>
+        <li class="productList">
+          <a href="#">Product</a>
+          <div id="productContent"> 
+            
+          <a href="vintageItem.html">Vintage Item</a>
+          <a href="vintageFurniture.html">Vintage Furniture</a>
+        </div>
+        
+        </li>
+      
+        <li><a class="current" href="../Dir/Register.html">Register</a></li>
+        <li><a href="../Dir/AboutUs.html">About Us</a></li>
+        </ul>
+       
+        
+    </header>
+    <main> 
+      <div id="form">
+        <form name="form1" onsubmit="return validasi()" action="ty.html">
+              <h1>Register Form</h1>
+              <p>Please fill in this form to create an account.</p>
+              
+              
+              <input type="text" placeholder="Enter First Name" name="fname" >
+                <br>
+              
+              <input type="text" placeholder="Enter Last Name" name="lname" >
+                <br>
+              
+              <input type="email" placeholder="Enter Email" name="email" >
+                <br>
+                <input type="password" placeholder="Enter Password" name="psw" >
+                <br>
+
+                <label for="gender" class="inpt_w">Male</label><input type="radio" name="gender" id="male" value="male" >
+                <label for="gender"class="inpt_w">Female</label><input type="radio" name="gender" id="female" value="female" ><br> 
+                <label for="gender"class="inpt_w">Membership</label><input type="radio" name="type" id="member" value="member" >
+                <label for="gender"class="inpt_w">Non Membership</label><input type="radio" name="type" id="nomember" value="non-member" ><br>
+
+              
+              <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+              <label for="agree"class="inpt_w">I understand and accept the Term & Privacy</label><input type="checkbox" name="agree" id="agree" value="agree"><br>
+
+              <button type="submit" class="registerbtn" value="submit">Register</button>
+              <p>Already have an account ? <a href="#">Sign in</a></p>
+            </div id="form"  > 
+          </form>
+    </main>
+
+    
+
+    <script src="../Material/js/jquery-3.4.1.min.js"></script>
+    <script src="../Material/js/basic.js"></script>
+</body>
+
+</html>

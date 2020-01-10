@@ -1,0 +1,75 @@
+
+
+.rumah_item {
+    width: 100%;
+}
+
+.item {
+    width: 30%;
+    margin: 1.3%;
+    position: relative;
+    float: left;
+}
+
+
+.imeg {
+    opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.item:hover .imeg {
+    opacity: 0.3;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.item:hover .bg-text {
+    opacity: 0.9;
+}
+.bg-text {
+    transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+.bg-text a {
+    text-decoration: none;
+    color: brown;
+}
+
+.text {
+    background-color: antiquewhite;
+  color: brown;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.text:hover {
+    font-size: 18px;
+}
+
+#dscvr {
+    background-color:beige;
+	display:inline-block;
+	cursor:pointer;
+	color:brown;
+	font-family:Arial;
+	font-size:17px;
+	padding:18px 76px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px burlywood;
+    margin: 15px;
+    text-align: center;
+}
+
+#dscvr:hover {
+    background-color: antiquewhite;
+}
+
+main {
+    text-align: center;
+}

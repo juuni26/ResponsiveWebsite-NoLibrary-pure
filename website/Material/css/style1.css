@@ -1,0 +1,41 @@
+#form {
+    width: 100%;
+    background-color: antiquewhite;
+    text-align: center;
+}
+body {
+    background-color: antiquewhite;
+}
+.navbar {background-color:white ;}
+input {
+    width: 50%;
+    margin: auto !important;
+    padding: 10px;
+    text-align: center;
+    background-color: w; 
+}
+.registerbtn {
+
+    margin: 0;
+    padding: 2px;
+}
+input[type=radio], input[type=checkbox] {
+    width: 20px;
+    padding: 10px;
+}
+input[type=email], input[type=password] {
+    background-color: white;
+}
+
+#ty {
+    text-align: center;
+}
+
+@media only screen and (max-width: 756px) {
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0   ;
+        
+   
+  }
