@@ -8,16 +8,16 @@ Projek tugas kuliah membuat website tanpa bantuan library pure html/css/js. (ngu
 <br>
 ![alt text](https://i.imgur.com/WqosnkR.jpg "bagian bawah web, all hover effect on")
 <br>
-![alt text](blob:https://imgur.com/5120bf4f-bd36-475f-921c-699714a19f61 "products page, responsive x30% !")
+![alt text](https://i.imgur.com/dl3tk85.jpg "products page, responsive x30% !")
 <br>
 ![alt text](https://i.imgur.com/X0Gc1Tw.png "Register page")
 <br>
-![alt text](https://imgur.com/RspAzv0 "responsive home pages,toggle button on")
+![alt text](https://i.imgur.com/uOtkrvR.png "responsive home pages,toggle button on")
 <br>
-![alt text](https://i.imgur.com/X0Gc1Tw.png "responsive page, toggle button off ")
+![alt text](https://i.imgur.com/RspAzv0.png "responsive page, toggle button off ")
 <br>
 
-**term & use **
+**Note**
 
 all this stuff belong to me, created 05-01-2020 . <br>
 if you want to use it, dm me at twitter @akarda26 . dont be a thief when u can be a friend!
