@@ -7,7 +7,7 @@ ngerjain di laptop kecil. maaf kalo ada ketidakpasan ukuran.
 BAGIAN KERJA:
 Tukang Coding :Junio Akarda
 mock up : Michael Richard
-bantu-bantu : Anggara
+bantu-bantu gaje: Anggara
 
 
 
