@@ -20,4 +20,4 @@ Projek tugas kuliah membuat website tanpa bantuan library pure html/css/js. (ngu
 **Note**
 
 all this stuff belong to me, created 05-01-2020 . <br>
-if you want to use it, dm me at twitter @akarda26 . dont be a thief when u can be a friend!
+if you want to use it personally, dm me at twitter @akarda26 . dont be a thief when u can be a friend!
